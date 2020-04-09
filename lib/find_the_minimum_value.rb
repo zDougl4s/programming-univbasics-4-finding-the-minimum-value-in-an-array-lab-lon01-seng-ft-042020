@@ -3,7 +3,7 @@ count = 10
 minimun_value = 1
 while count < array.length do
   if   count == minimun_value
-    minimun_value = array[count]
+    minimun_value = count
   end
   count -= 1
 end
